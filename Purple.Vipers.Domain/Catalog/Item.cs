@@ -23,10 +23,10 @@ namespace Purple.Vipers.Domain.Catalog
         if(price < 0.00m) {
             throw new ArgumentException("Price must be greater than zero.");
         }
-        this.Name = name;
-        this.Description = description;
-        this.Brand = brand;
-        this.Price = price;
+        Name = name;
+        Description = description;
+        Brand = brand;
+        Price = price;
     }
     public void AddRating(Rating rating)
     {
