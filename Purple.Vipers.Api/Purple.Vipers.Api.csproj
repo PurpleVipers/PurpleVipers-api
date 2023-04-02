@@ -14,7 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Purple.Vipers.Domain\Purple.Vipers.Domain.csproj" />
-    <ProjectReference Include="..\PurpleVipers.Data\PurpleVipers.Data.csproj" />
+    <ProjectReference Include="..\Purple.Vipers.Data\Purple.Vipers.Data.csproj" />
   </ItemGroup>
 
 </Project>

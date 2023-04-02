@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple.Vipers.Api", "Purple
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple.Vipers.Domain", "Purple.Vipers.Domain\Purple.Vipers.Domain.csproj", "{3E57CA74-B7A8-4E4E-9395-69EED83F2E4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurpleVipers.Data", "PurpleVipers.Data\PurpleVipers.Data.csproj", "{AC994A16-6820-4C47-B5F7-9896865201FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple.Vipers.Data", "Purple.Vipers.Data\Purple.Vipers.Data.csproj", "{AC994A16-6820-4C47-B5F7-9896865201FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
