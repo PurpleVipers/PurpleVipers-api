@@ -57,7 +57,7 @@ namespace Purple.Vipers.Api.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public IActionResult Put(int id, Item item)
+        public IActionResult PutItems(int id, [FromBody] Item item)
         {
             if (id != item.Id)
             {
@@ -76,7 +76,7 @@ namespace Purple.Vipers.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public IActionResult Delete(int id)
+        public IActionResult DeleteItem(int id)
         {
             var item = _db.Items.Find(id);
             if (item == null)

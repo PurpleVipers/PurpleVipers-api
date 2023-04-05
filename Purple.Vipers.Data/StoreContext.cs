@@ -1,5 +1,6 @@
 ﻿using Purple.Vipers.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
+using Purple.Vipers.Domain.Orders;
 
 namespace Purple.Vipers.Data
 {
@@ -11,7 +12,7 @@ namespace Purple.Vipers.Data
 
         public DbSet<Item> Items { get; set; }
 
-        public DbSet<Item> Orders {get; set;}
+        public DbSet<Order> Orders {get; set;}
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
