@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple.Vipers.Domain", "Pur
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple.Vipers.Data", "Purple.Vipers.Data\Purple.Vipers.Data.csproj", "{AC994A16-6820-4C47-B5F7-9896865201FD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Purple.Vipers.tests", "Purple.Vipers.tests", "{ABE34133-FA05-4EFB-A27B-586766254BE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Purple.Vipers.Domain.Tests", "Purple.Vipers.tests\Purple.Vipers.Domain.Tests\Purple.Vipers.Domain.Tests.csproj", "{7440B186-1E5E-4FE6-9806-D9A08CA7D8D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{AC994A16-6820-4C47-B5F7-9896865201FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC994A16-6820-4C47-B5F7-9896865201FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC994A16-6820-4C47-B5F7-9896865201FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7440B186-1E5E-4FE6-9806-D9A08CA7D8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7440B186-1E5E-4FE6-9806-D9A08CA7D8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7440B186-1E5E-4FE6-9806-D9A08CA7D8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7440B186-1E5E-4FE6-9806-D9A08CA7D8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7440B186-1E5E-4FE6-9806-D9A08CA7D8D9} = {ABE34133-FA05-4EFB-A27B-586766254BE7}
 	EndGlobalSection
 EndGlobal
