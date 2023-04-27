@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Purple.Vipers.Domain.Catalog;
 using Purple.Vipers.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 
 namespace Purple.Vipers.Api.Controllers
@@ -76,6 +77,7 @@ namespace Purple.Vipers.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult Delete(int id)
         {
             var item = _db.Items.Find(id);
